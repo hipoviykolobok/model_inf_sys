@@ -1,0 +1,23 @@
+# Временные файлы Microsoft Office
+~$*
+*.tmp
+*.temp
+*.bak
+
+# Кэш и промежуточные результаты проверок
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+qa/
+render/
+
+# Настройки редакторов и служебные файлы ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Локальные архивы комплектов; исходники хранятся распакованными
+*.zip

@@ -1,0 +1,10 @@
+# Текстовые файлы хранятся в репозитории с LF
+* text=auto
+*.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Документы и рисунки являются двоичными файлами
+*.docx binary
+*.png binary
+*.pdf binary
